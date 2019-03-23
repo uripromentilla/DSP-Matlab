@@ -1,0 +1,11 @@
+CSC784M – Machine Problem 1 (Due 19-Feb-2019, 6:00 PM)
+
+INSTRUCTION:  This MP must be done individually and independently. You are only allowed to use MATLAB or Octave. For this machine problem, you will need to download the speech signal ‘speech_MP1.wav’. Documentation for this MP should contain: M-file scripts or functions, results, screenshots, discussions, and answers to questions. Submit your documentation (in *.pdf file format) and M-file(s) online thru Canvas before the deadline. Submit a printed copy of your documentation at the start of the class on 19-Feb-2019.
+
+ 
+
+1.) For the given speech data (‘speech_MP1.wav’), perform segmentation such that each segment or frame has a 30-millisecond duration, and that every two successive frames have an overlap of 15 milliseconds. Write an M-file that automatically counts the number of zero-crossings for each frame. Plot the speech waveform and superimpose the number of zero-crossings on their respective frames. Is the number of zero-crossings related to the speech sound, whether it is a vowel or a consonant sound? State your observation and explain briefly.
+
+ 
+
+2.) For the same speech data and segmentation as in part (1), write an M-file that finds the value of the most dominant (i.e., the largest magnitude) frequency component in the spectrum of each frame. Plot the speech waveform and superimpose the maximum spectral magnitude for the respective frames. Is the maximum spectral magnitude related to the speech sound, whether it is a vowel or a consonant sound? State your observation and explain briefly.
